@@ -8,10 +8,10 @@ import tinkerer.paths
 # **************************************************************
 
 # Change this to the name of your blog
-project = '0x80'
+project = '0x80 Blog'
 
 # Change this to the tagline of your blog
-tagline = '0x80'
+tagline = 'Programming is a craft and i want to master it.'
 
 # Change this to the description of your blog
 description = 'Just hacking ...'
@@ -20,7 +20,7 @@ description = 'Just hacking ...'
 author = 'Alexander Ovchinnikov'
 
 # Change this to your copyright string
-copyright = '2048, ' + author
+copyright = '2012, ' + author
 
 # Change this to your blog root URL (required for RSS feed)
 website = 'http://alexander-0x80.github.io/blog/html/'
@@ -39,7 +39,9 @@ html_favicon = 'tinkerer.ico'
 html_theme = "flat"
 
 # Theme-specific options, see docs
-html_theme_options = { }
+html_theme_options = {
+    'accent_color': "#3CB371"
+}
 
 # Link to RSS service like FeedBurner if any, otherwise feed is
 # linked directly
